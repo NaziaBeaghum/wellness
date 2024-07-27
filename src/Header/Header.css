@@ -1,0 +1,20 @@
+.header_container
+{
+    background-color: #1E3455;
+    height: 40px;
+    font-size: .75rem;
+    color: #F1F1F1;
+   display: flex;
+   align-items: center;
+   padding-left: 1.25rem;
+}
+@media(max-width:768px)
+{
+    .header_container{
+        font-size: 1.75rem;
+        height: 75px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+}

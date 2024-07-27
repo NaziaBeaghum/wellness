@@ -1,0 +1,169 @@
+.main_container
+{
+    padding:1rem ;
+    font-family:"Roboto", sans-serif; ;
+}
+.section{
+    background-color:hsl(36, 16%, 81%);
+    padding: 1.25rem;
+    border-radius: 5px;
+    color:hsl(41, 8%, 51%);
+}
+.title
+{
+    font-size: 1rem;
+    margin: .75rem 0;
+}
+.section{
+    font-size: .75rem;
+}
+.img
+{
+    height:280px;
+    width: 100%;
+    object-fit: cover;
+}
+.flexbox_buttons
+{
+    display: flex;
+    justify-content: space-between;
+    padding:1.25rem 0 ;
+   
+}
+.flex_item1
+{
+    display: inline-flex;
+    
+   
+}
+
+.date_section
+{
+    
+    border-radius: 8px; 
+    padding: 0; 
+    margin-right: .75rem;   
+}
+.date_btn{
+    text-align: left;
+    border: none;
+    background-color: #1E3455;
+    padding:.65rem;
+    font-family:"Roboto", sans-serif; 
+    border-radius: 8px;
+    color: #F1F1F1;
+}   
+.date_btn:focus{
+    outline: none;
+}
+select{
+    background-color: #1E3455;
+    border: none;
+    
+}
+
+option
+{
+    
+}
+
+
+.title_section{
+    width: 25%;
+    
+}
+.title_input{
+    width: 100%;
+    text-align: left;
+    border: none;
+    color: #fff;
+    background-color: #1E3455;
+    padding:.65rem;
+    font-family:"Roboto", sans-serif; 
+    border-radius: 8px;
+}
+.card_section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px
+}
+.filter_date{
+    margin:20px
+}
+.buttons{
+ display: flex;
+ align-items: center;
+ margin-top: .75rem;
+ justify-content: center;
+}
+.buttons button{
+    background-color: #1E3455;
+    padding: .5rem .75rem;
+    color: #F1F1F1;
+    border-radius: 8px;
+}
+.next_btn
+{
+    margin-left: .75rem;
+}
+@media(max-width:768px){
+     .date_btn{
+        display: block;
+        width: 100%;
+        margin-bottom: .5rem;
+        background-color:hsl(0, 4%, 89%);
+        border: none;
+        color: hsl(38, 5%, 59%);
+        font-size: 1rem;
+        text-align: left;
+        padding: .5rem 1.25rem;
+        
+    }
+    
+    .title_btn
+    {
+        background-color:#F1F1F1;
+        padding: .5rem 1.25rem;
+       
+    }
+    .title_section {
+        width: 100%;
+    }
+    .date_btn{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .type_btn{
+        margin-left: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flexbox_buttons{
+        display: block;
+    }
+    .flex_item1{
+        width: 100%;
+        display: block;
+    }
+    .flex_item2{
+        width: 100%;
+        display: block;
+    }
+    .title{
+        font-size: 1.25rem;
+    }
+    .date_section{
+        margin-right: 0;
+    }
+    .para
+    {
+        font-size:1rem
+    }
+    .card_section{
+        display: block;
+    }
+    
+}
+
